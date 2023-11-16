@@ -136,7 +136,7 @@ body {
      -moz-appearance: none;
           appearance: none;
   background-repeat: no-repeat;
-  background-image: url(/img/down-arrow.svg);
+  background-image: url(../img/down-arrow.svg);
   background-position: right;
 }
 
@@ -157,15 +157,15 @@ body {
 }
 
 .header__top__link:nth-child(1) {
-  background-image: url(/img/whatsapp.svg);
+  background-image: url(../img/whatsapp.svg);
 }
 
 .header__top__link:nth-child(2) {
-  background-image: url(/img/telegram.svg);
+  background-image: url(../img/telegram.svg);
 }
 
 .header__top__link:nth-child(3) {
-  background-image: url(/img/vk.svg);
+  background-image: url(../img/vk.svg);
 }
 
 .main_header__middle {
@@ -197,7 +197,7 @@ body {
   background-color: transparent;
   padding: 12px;
   background-repeat: no-repeat;
-  background-image: url(/img/burger-menu.svg);
+  background-image: url(../img/burger-menu.svg);
   background-position: center;
   display: none;
 }
@@ -255,7 +255,7 @@ body {
   width: 20px;
   height: 20px;
   background-repeat: no-repeat;
-  background-image: url(/img/burn-icon.svg);
+  background-image: url(../img/burn-icon.svg);
   vertical-align: middle;
   display: inline-block;
 }
@@ -266,7 +266,7 @@ body {
   font-weight: 400;
   padding-left: 28px;
   background-repeat: no-repeat;
-  background-image: url(/img/phone-gray.svg);
+  background-image: url(../img/phone-gray.svg);
   background-position: left top 50%;
   margin-bottom: 4px;
 }
@@ -303,7 +303,7 @@ body {
   border-radius: 16px;
   background-color: #0071E4;
   background-repeat: no-repeat;
-  background-image: url(/img/menu-dots.svg);
+  background-image: url(../img/menu-dots.svg);
   background-position: left 16px top 50%;
 }
 
@@ -311,7 +311,7 @@ body {
   max-width: 594px;
   width: 100%;
   background-repeat: no-repeat;
-  background-image: url(/img/search-icon.svg);
+  background-image: url(../img/search-icon.svg);
   background-position: left 16px top 50%;
 }
 
@@ -363,14 +363,14 @@ body {
 .favorite__link {
   padding: 20px;
   background-repeat: no-repeat;
-  background-image: url(/img/heart.svg);
+  background-image: url(../img/heart.svg);
   background-position: center;
 }
 
 .copy__link {
   padding: 20px;
   background-repeat: no-repeat;
-  background-image: url(/img/clone-icon.svg);
+  background-image: url(../img/clone-icon.svg);
 }
 
 .header__cart__btn {
@@ -389,7 +389,7 @@ body {
   gap: 4px;
   white-space: nowrap;
   background-repeat: no-repeat;
-  background-image: url(/img/shopping-bag.svg);
+  background-image: url(../img/shopping-bag.svg);
   background-position: left 32px top 50%;
 }
 
@@ -416,14 +416,14 @@ body {
 .search__link {
   padding: 12px;
   background-repeat: no-repeat;
-  background-image: url(/img/search-icon-dark.svg);
+  background-image: url(../img/search-icon-dark.svg);
   display: none;
 }
 
 .contact__link {
   padding: 12px;
   background-repeat: no-repeat;
-  background-image: url(/img/phone-dark.svg);
+  background-image: url(../img/phone-dark.svg);
   display: none;
 }
 
@@ -527,7 +527,7 @@ body {
   left: 5px;
   bottom: 0;
   background-repeat: no-repeat;
-  background-image: url(/img/iPhone1.png);
+  background-image: url(../img/iPhone1.png);
 }
 
 .header__search__box {
@@ -543,7 +543,7 @@ body {
 .main_header__low__ads__btn {
   padding: 16px;
   background-repeat: no-repeat;
-  background-image: url(/img/rigth-arrow-circle.svg);
+  background-image: url(../img/rigth-arrow-circle.svg);
 }
 
 @media screen and (max-width: 1210px) {
@@ -605,7 +605,7 @@ body {
     max-width: 250px;
     width: 100%;
     background-repeat: no-repeat;
-    background-image: url(/img/search-icon-dark.svg);
+    background-image: url(../img/search-icon-dark.svg);
     background-position: left top 50%;
   }
   .header__search__box input {
@@ -778,15 +778,15 @@ body {
 }
 
 .footer__social__link:nth-child(1) {
-  background-image: url(/img/whatsapp.svg);
+  background-image: url(../img/whatsapp.svg);
 }
 
 .footer__social__link:nth-child(2) {
-  background-image: url(/img/telegram.svg);
+  background-image: url(../img/telegram.svg);
 }
 
 .footer__social__link:nth-child(3) {
-  background-image: url(/img/vk.svg);
+  background-image: url(../img/vk.svg);
 }
 
 .box4__text__block {
@@ -955,7 +955,7 @@ body {
     width: 26px;
     height: 30px;
     background-repeat: no-repeat;
-    background-image: url(/img/logo.svg);
+    background-image: url(../img/logo.svg);
     background-position: center;
     background-size: cover;
     left: 0;
@@ -1055,7 +1055,7 @@ body {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   background-repeat: no-repeat;
-  background-image: url(/img/slide-right.svg);
+  background-image: url(../img/slide-right.svg);
   background-position: center;
   background-color: transparent;
   cursor: pointer;
@@ -1188,7 +1188,7 @@ body {
 .favorite__product {
   padding: 12px;
   background-repeat: no-repeat;
-  background-image: url(/img/product-heart.svg);
+  background-image: url(../img/product-heart.svg);
 }
 
 .product__links {
@@ -1204,7 +1204,7 @@ body {
 .copy__product {
   padding: 12px;
   background-repeat: no-repeat;
-  background-image: url(/img/product-copy.svg);
+  background-image: url(../img/product-copy.svg);
 }
 
 .products__list {
@@ -1251,7 +1251,7 @@ body {
   width: 125px;
   height: 24px;
   background-repeat: no-repeat;
-  background-image: url(/img/stars.svg);
+  background-image: url(../img/stars.svg);
   display: inline-block;
 }
 
@@ -1299,7 +1299,7 @@ body {
   width: 16px;
   height: 16px;
   background-repeat: no-repeat;
-  background-image: url(/img/green-circle.svg);
+  background-image: url(../img/green-circle.svg);
   display: inline-block;
   margin-right: 5px;
 }
@@ -1361,7 +1361,7 @@ body {
   width: 24px;
   height: 24px;
   background-repeat: no-repeat;
-  background-image: url(/img/cart-plus.svg);
+  background-image: url(../img/cart-plus.svg);
   background-position: center;
   display: inline-block;
 }
@@ -1428,7 +1428,7 @@ body {
   width: 16px;
   height: 16px;
   background-repeat: no-repeat;
-  background-image: url(/img/blue-circle.svg);
+  background-image: url(../img/blue-circle.svg);
   display: inline-block;
 }
 
@@ -1481,7 +1481,7 @@ body {
   width: 24px;
   height: 24px;
   background-repeat: no-repeat;
-  background-image: url(/img/cart-plus.svg);
+  background-image: url(../img/cart-plus.svg);
   display: inline-block;
 }
 
@@ -1740,7 +1740,7 @@ body {
   width: 160px;
   height: 160px;
   background-repeat: no-repeat;
-  background-image: url(/img/services1.png);
+  background-image: url(../img/services1.png);
   background-position: center;
   display: inline-block;
   margin-bottom: 16px;
@@ -1909,7 +1909,7 @@ body {
     width: 32px;
     height: 32px;
     background-repeat: no-repeat;
-    background-image: url(/img/services2.png);
+    background-image: url(../img/services2.png);
     background-position: center;
     background-size: cover;
     display: inline-block;

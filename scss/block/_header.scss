@@ -32,7 +32,7 @@
         padding-right: 28px;
         appearance: none;
         background-repeat: no-repeat;
-        background-image: url(/img/down-arrow.svg);
+        background-image: url(../img/down-arrow.svg);
         background-position: right;
     }
 }
@@ -50,15 +50,15 @@
 }
 
 .header__top__link:nth-child(1) {
-    background-image: url(/img/whatsapp.svg);
+    background-image: url(../img/whatsapp.svg);
 }
 
 .header__top__link:nth-child(2) {
-    background-image: url(/img/telegram.svg);
+    background-image: url(../img/telegram.svg);
 }
 
 .header__top__link:nth-child(3) {
-    background-image: url(/img/vk.svg);
+    background-image: url(../img/vk.svg);
 }
 
 .main_header__middle {
@@ -82,7 +82,7 @@
     background-color: transparent;
     padding: 12px;
     background-repeat: no-repeat;
-    background-image: url(/img/burger-menu.svg);
+    background-image: url(../img/burger-menu.svg);
     background-position: center;
     display: none;
 }
@@ -127,7 +127,7 @@
         width: 20px;
         height: 20px;
         background-repeat: no-repeat;
-        background-image: url(/img/burn-icon.svg);
+        background-image: url(../img/burn-icon.svg);
         vertical-align: middle;
         display: inline-block;
     }
@@ -139,7 +139,7 @@
     font-weight: 400;
     padding-left: 28px;
     background-repeat: no-repeat;
-    background-image: url(/img/phone-gray.svg);
+    background-image: url(../img/phone-gray.svg);
     background-position: left top 50%;
     margin-bottom: 4px;
 }
@@ -170,7 +170,7 @@
     border-radius: 16px;
     background-color: $prime;
     background-repeat: no-repeat;
-    background-image: url(/img/menu-dots.svg);
+    background-image: url(../img/menu-dots.svg);
     background-position: left 16px top 50%;
 }
 
@@ -178,7 +178,7 @@
     max-width: 594px;
     width: 100%;
     background-repeat: no-repeat;
-    background-image: url(/img/search-icon.svg);
+    background-image: url(../img/search-icon.svg);
     background-position: left 16px top 50%;
 }
 
@@ -208,14 +208,14 @@
 .favorite__link {
     padding: 20px;
     background-repeat: no-repeat;
-    background-image: url(/img/heart.svg);
+    background-image: url(../img/heart.svg);
     background-position: center;
 }
 
 .copy__link {
     padding: 20px;
     background-repeat: no-repeat;
-    background-image: url(/img/clone-icon.svg);
+    background-image: url(../img/clone-icon.svg);
 }
 
 .header__cart__btn {
@@ -230,7 +230,7 @@
     gap: 4px;
     white-space: nowrap;
     background-repeat: no-repeat;
-    background-image: url(/img/shopping-bag.svg);
+    background-image: url(../img/shopping-bag.svg);
     background-position: left 32px top 50%;
 }
 
@@ -249,14 +249,14 @@
 .search__link {
     padding: 12px;
     background-repeat: no-repeat;
-    background-image: url(/img/search-icon-dark.svg);
+    background-image: url(../img/search-icon-dark.svg);
     display: none;
 }
 
 .contact__link {
     padding: 12px;
     background-repeat: no-repeat;
-    background-image: url(/img/phone-dark.svg);
+    background-image: url(../img/phone-dark.svg);
     display: none;
 }
 
@@ -337,7 +337,7 @@
         left: 5px;
         bottom: 0;
         background-repeat: no-repeat;
-        background-image: url(/img/iPhone1.png);
+        background-image: url(../img/iPhone1.png);
     }
 }
 
@@ -354,7 +354,7 @@
 .main_header__low__ads__btn {
     padding: 16px;
     background-repeat: no-repeat;
-    background-image: url(/img/rigth-arrow-circle.svg);
+    background-image: url(../img/rigth-arrow-circle.svg);
 }
 
 @media screen and (max-width: 1210px) {
@@ -425,7 +425,7 @@
         max-width: 250px;
         width: 100%;
         background-repeat: no-repeat;
-        background-image: url(/img/search-icon-dark.svg);
+        background-image: url(../img/search-icon-dark.svg);
         background-position: left top 50%;
 
         input {
