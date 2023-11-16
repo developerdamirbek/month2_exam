@@ -1,0 +1,145 @@
+.about{
+    padding-bottom: 32px;
+}
+
+.about__info__block {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.about__title {
+    color: $black;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.about__text {
+    color:  #585656;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.about__banner {
+    background-color: #000;
+}
+
+.banner_tablet, .banner_mobile {
+    display: none;
+}
+
+.about__banner__container {
+    display: flex;
+    align-items: center;
+    gap: 88px;
+}
+
+.banner__img {
+    vertical-align: bottom;
+}
+
+.banner__title {
+    color: $white;
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.banner__text {
+    color: $white;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.banner__btn {
+    color: $white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 18px 36px;
+    border-radius: 8px;
+    background-color: $prime;
+}
+
+@media screen and (max-width: 840px) {
+    .about__banner__container {
+        gap: 72px;
+    }
+
+    .banner_desktop {
+        display: none;
+    }
+
+    .banner_tablet {
+        display: block;
+    }
+    
+    .about__banner {
+        padding-top: 40px;
+    }
+    .about__banner__img {
+        max-width: 110px;
+    }
+
+    .banner__title {
+        font-size: 32px;
+        margin-bottom: 8px;
+    }
+
+    .banner__text {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+
+    .banner__btn {
+        margin-bottom: 25px;
+    }
+
+    .banner__img {
+        vertical-align: bottom;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .about__title {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+
+    .banner_tablet {
+        display: none;
+    }
+
+    .banner_mobile {
+        display: block;
+    }
+
+    .about__text {
+        font-size: 16px;
+    }
+
+    .about__info__block {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .about__banner__container{
+        gap: 24px;
+    }
+
+    .about__banner__img {
+        max-width: 65px;
+    }
+
+    .banner__title {
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+
+
+    .banner__btn {
+        padding: 8px 20px;
+        margin-bottom: 20px;
+    }
+
+}

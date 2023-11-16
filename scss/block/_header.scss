@@ -1,0 +1,481 @@
+.main_header__top {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: $lightGrey;
+}
+
+.header__top__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.choose__city {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    label {
+        color: $black;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    select {
+        color: $prime;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        font-size: 16px;
+        font-weight: 400;
+        cursor: pointer;
+        padding-right: 28px;
+        appearance: none;
+        background-repeat: no-repeat;
+        background-image: url(/img/down-arrow.svg);
+        background-position: right;
+    }
+}
+
+.header__top__links {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header__top__link {
+    padding: 16px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header__top__link:nth-child(1) {
+    background-image: url(/img/whatsapp.svg);
+}
+
+.header__top__link:nth-child(2) {
+    background-image: url(/img/telegram.svg);
+}
+
+.header__top__link:nth-child(3) {
+    background-image: url(/img/vk.svg);
+}
+
+.main_header__middle {
+    padding-top: 23px;
+    padding-bottom: 16px;
+}
+
+.main_header__middle__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_header__nav {
+    display: flex;
+    gap: 24px;
+}
+
+.menu__btn {
+    border: none;
+    background-color: transparent;
+    padding: 12px;
+    background-repeat: no-repeat;
+    background-image: url(/img/burger-menu.svg);
+    background-position: center;
+    display: none;
+}
+
+.main_header__list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.main_header__contact {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+
+.main_header__link {
+    color: $black;
+    padding-bottom: 3px;
+    border-bottom: 2px solid transparent;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all 0.4s ease;
+}
+
+.main_header__link:not(.aksiya):hover {
+    color: $prime;
+    border-bottom: 2px solid $prime;
+}
+
+.aksiya {
+    padding-right: 8px;
+    padding-left: 4px;
+    border-radius: 8px;
+    background-color: #FDEFBF;
+    display: flex;
+    align-items: center;
+
+    &::before {
+        content: '';
+        width: 20px;
+        height: 20px;
+        background-repeat: no-repeat;
+        background-image: url(/img/burn-icon.svg);
+        vertical-align: middle;
+        display: inline-block;
+    }
+}
+
+.phone__number {
+    color: $black;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 28px;
+    background-repeat: no-repeat;
+    background-image: url(/img/phone-gray.svg);
+    background-position: left top 50%;
+    margin-bottom: 4px;
+}
+
+.contact__link {
+    color: $prime;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main_header__bottom {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.main_header__bottom__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.category__btn {
+    color: $white;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 16px 16px 16px 52px;
+    border-radius: 16px;
+    background-color: $prime;
+    background-repeat: no-repeat;
+    background-image: url(/img/menu-dots.svg);
+    background-position: left 16px top 50%;
+}
+
+.search__input__block {
+    max-width: 594px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(/img/search-icon.svg);
+    background-position: left 16px top 50%;
+}
+
+.search__input {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    color: $prime;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 56px;
+    border-radius: 8px;
+    border: 1px solid $grey;
+    background: transparent;
+    outline-width: 2px;
+    outline-color: $lightPrime;
+}
+
+
+
+.search__input::placeholder {
+    color: $grey;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.favorite__link {
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-image: url(/img/heart.svg);
+    background-position: center;
+}
+
+.copy__link {
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-image: url(/img/clone-icon.svg);
+}
+
+.header__cart__btn {
+    color: $white;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 16px;
+    background-color: $verminal;
+    padding: 16px 32px 16px 60px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    white-space: nowrap;
+    background-repeat: no-repeat;
+    background-image: url(/img/shopping-bag.svg);
+    background-position: left 32px top 50%;
+}
+
+.header__bottom__links {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.main_header__block {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.search__link {
+    padding: 12px;
+    background-repeat: no-repeat;
+    background-image: url(/img/search-icon-dark.svg);
+    display: none;
+}
+
+.contact__link {
+    padding: 12px;
+    background-repeat: no-repeat;
+    background-image: url(/img/phone-dark.svg);
+    display: none;
+}
+
+.cart__badge {
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 32px;
+    padding: 4px 12px;
+    background: #46C609;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.main_header__low {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.header__bottom__block {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.main_header__low__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main_header__low__list {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.main_header__low__link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: $black;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.main_header__low__link:hover {
+    color: $prime;
+}
+
+.main_header__low__link:hover path {
+    fill: $prime;
+    stroke: $prime;
+}
+
+.main_header__low__link:hover rect {
+    stroke: $prime;
+}
+
+.airpod:hover path {
+    fill: none;
+}
+
+.main_header__low__ads {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    padding: 20px 16px 20px 66px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #000 22.19%, #5E556B 100%);
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 64px;
+        left: 5px;
+        bottom: 0;
+        background-repeat: no-repeat;
+        background-image: url(/img/iPhone1.png);
+    }
+}
+
+.header__search__box {
+    display: none;
+}
+
+.main_header__low__ads__text {
+    color: $white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.main_header__low__ads__btn {
+    padding: 16px;
+    background-repeat: no-repeat;
+    background-image: url(/img/rigth-arrow-circle.svg);
+}
+
+@media screen and (max-width: 1210px) {
+    .main_header__low__ads {
+        display: none;
+    }
+
+    .main_header__low__container {
+        display: inline-block;
+    }
+
+    .main_header__low__list {
+        justify-content: space-between;
+
+    }
+}
+
+@media screen and (max-width: 1188px) {
+    .main_header__list {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .menu__btn {
+        display: inline-block;
+    }
+
+    .phone__link {
+        display: none;
+    }
+
+    .header__box {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .header__search__box {
+        display: inline-block;
+    }
+
+    .main_header__low {
+        display: none;
+    }
+
+    .search__input__block {
+        display: none;
+    }
+
+    .contact__link {
+        display: none;
+    }
+
+    .phone__number {
+        margin: 0;
+    }
+
+    .main_header__bottom{
+        display: none;
+    }
+
+    .main_header__logo {
+        width: 32px;
+    }
+
+    .header__search__box {
+        max-width: 250px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-image: url(/img/search-icon-dark.svg);
+        background-position: left top 50%;
+
+        input {
+            width: 100%;
+            border: none;
+            outline: none;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 32px;
+            background-color: transparent;
+
+            &::placeholder {
+                color: $grey;
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+
+    }
+
+    .header__search__input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .main_header__middle {
+        padding: 4px 0;
+    }
+    .main_header__bottom, .main_header__top {
+        display: none;
+    }
+
+    .phone__number {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .main_header__contact {
+        display: none;
+    }
+
+    .header__search__box {
+        display: none;
+    }
+
+    .search__link, .contact__link {
+        display: inline-block;
+    }
+}

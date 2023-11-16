@@ -1,0 +1,227 @@
+.contact {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: $lightGrey;
+}
+
+
+.contact__form__input {
+    outline-color: #9747FF;
+}
+.contact__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 86px;
+}
+
+
+.contact__title {
+    color: $black;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    max-width: 421px;
+}
+
+.contact__text {
+    max-width: 454px;
+    color: #585656;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.contact__form__block {
+    padding: 16px 32px 32px 32px;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #F7355D 0.3%, #9747FF 101.33%);
+}
+
+.contact__form__title {
+    color: $white;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.contact__form__text {
+    color: $white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.contact__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.contact__form__input {
+    max-width: 246px;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 24px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.contact__form__input::placeholder {
+    color: $grey;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.contact__form__btn {
+    color: #585656;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 18px 36px;
+    border-radius: 8px;
+    background-color: #E7E7E7;
+}
+
+.form2 {
+    display: none;
+}
+
+@media screen and (max-width: 1120px) {
+    .contact__img__block {
+        max-width: 250px;
+    }
+
+    .contact__container {
+        align-items: start;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .contact__container {
+        align-items: start;
+        gap: 32px;
+    }
+    .contact__img__block {
+        max-width: 225px;
+    }
+
+    .contact__form__block {
+        margin-bottom: 16px;
+    }
+
+    .contact__form {
+        display: none;
+    }
+
+    .form2 {
+        display: flex;
+        align-items: center;
+        flex-shrink: 1;
+    }
+
+    .contact__title {
+        font-size: 32px;
+    }
+
+    .contact__text {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+
+    .contact__form__block {
+        padding: 8px 32px 8px 16px;
+    }
+
+    .contact__form__block {
+        display: inline-block;
+    }
+
+    .contact__form__title {
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+
+    .contact__form__text {
+        font-size: 16px;
+        margin: 0;
+        display: inline-block;
+    }
+
+    .contact__form__input {
+        max-width: 246px;
+    }
+}
+
+@media screen and (max-width: 724px) {
+    .contact__img__block {
+        display: none;
+    }
+
+    .contact__container {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .contact {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    .contact__container {
+        align-items: start;
+        justify-content: start;
+    }
+
+    .contact__title {
+        font-size: 24px;
+        margin-bottom: 7px;
+    }
+
+    .contact__text {
+        color: #585656;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 8px;
+    }
+
+    .contact__form__title {
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+
+    .contact__form__text {
+        font-size: 14px
+    }
+}
+
+@media screen and (max-width: 496px) {
+    .contact__form__block {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 8px;
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+    .form2 {
+        max-width: 100%;
+        width: 100%;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .contact__form__input {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .contact__form__btn {
+        max-width: 100%;
+        width: 100%;
+    }
+
+}
